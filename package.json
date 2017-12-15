@@ -1,0 +1,35 @@
+{
+  "name": "simplify",
+  "version": "1.0.0",
+  "description": "simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuricoden/simplify-dev.git"
+  },
+  "keywords": [
+    "\"functional-library\"",
+    "\"functional-js\""
+  ],
+  "author": "Yuri Zheludkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuricoden/simplify-dev/issues"
+  },
+  "homepage": "https://github.com/Yuricoden/simplify-dev#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-airbnb-standard": "^1.6.5",
+    "eslint-plugin-import": "^2.8.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}
