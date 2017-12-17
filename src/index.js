@@ -1,1 +1,3 @@
-var rot = sad
+import each from 'arrayMethods/each.js'
+
+export { each }
