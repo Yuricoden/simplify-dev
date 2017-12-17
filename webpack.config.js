@@ -1,13 +1,12 @@
 
 const webpack = require('webpack')
+var env = require('yargs').argv.env
 
-const UglifyJsPlugin = webpack.optimaze.UglifyJsPlugin
+const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin
 const path = require('path')
-
 const libraryName = 'simplify'
 
-const plugins = [],
-  outputFile
+let plugins = [], outputFile
 
 if (env === 'build') {
   plugins.push(new UglifyJsPlugin({ minimaze: true }))
