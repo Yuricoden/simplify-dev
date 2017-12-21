@@ -11,8 +11,6 @@ let plugins = [], outputFile
 if (env === 'build') {
   plugins.push(new UglifyJsPlugin({ minimaze: true }))
   outputFile = `${libraryName}.min.js`
-} else {
-  outputFile = `${libraryName}.js`
 }
 
 const config = {
