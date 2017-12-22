@@ -1,17 +1,13 @@
+const webpack = require('webpack');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const path = require('path');
+const env = require('yargs').argv.env;
 
-const webpack = require('webpack')
-var env = require('yargs').argv.env
+let  libraryName = 'simplify';
 
-const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin
-const path = require('path')
-const libraryName = 'simplify'
+let plugins = [];
+let outputFile = libraryName + '.min.js';
 
-let plugins = [], outputFile
-
-if (env === 'build') {
-  plugins.push(new UglifyJsPlugin({ minimaze: true }))
-  outputFile = `${libraryName}.min.js`
-}
 
 const config = {
   entry: `${__dirname}/src/index.js`,
@@ -29,11 +25,6 @@ const config = {
         test: '/(\\.jsx|\\.js)$/',
         loader: 'babel-loader',
         exclude: /node_modules/
-      },
-      {
-        test: /(\.jsx|\.js)$/,
-        loader: 'eslint-loader',
-        exclude: /node_modules/
       }
     ]
   },
@@ -41,7 +32,7 @@ const config = {
     modules: [path.resolve('./node_modules'), path.resolve('./src')],
     extensions: ['.json', '.js']
   },
-  plugins: plugins
+  plugins: [new UglifyJsPlugin()]
 }
 
 module.exports = config
