@@ -1,4 +1,5 @@
-# simplify.js                 ![alt text](logo.png)
+![alt text](logo.png)
+# simplify.js                
 simplify.js is a powerfull functional JavaScript library.
 
 It is a speed-fast library for working with objects and arrays.
