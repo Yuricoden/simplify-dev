@@ -1,14 +1,18 @@
 ![alt text](logo.png)
 # simplify.js
 simplify.js is a powerfull functional JavaScript library.
-![NPM Version][npm-url]
+
+[![NPM Version][npm-url]
+
 
 
 It is a speed-fast library for working with objects and arrays.
 Also included are methods for working with functions such as curry,memoize and etc...
 
+
 [npm-url]: https://img.shields.io/npm/dw/simplifyjs.svg
 [Wiki](https://github.com/Yuricoden/simplify-dev/wiki/Methods "review methods") |
+
 
 
 Usage:

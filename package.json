@@ -1,5 +1,5 @@
 {
-  "name": "simplifyjs",
+  "name": "@yuricoden/simplifyjs",
   "version": "0.0.5",
   "description": "simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.",
   "main": "library/simplify.min.js",
