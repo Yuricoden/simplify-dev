@@ -1,9 +1,8 @@
 {
-  "name": "yuricoden",
-  "version": "0.0.3",
-  "private": true,
+  "name": "simplifyjs",
+  "version": "0.0.5",
   "description": "simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.",
-  "main": "index.js",
+  "main": "library/simplify.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "webpack-dev-server --hot --inline",
