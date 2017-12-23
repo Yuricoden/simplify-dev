@@ -15,7 +15,7 @@ const config = {
   output: {
     path: `${__dirname}/library`,
     filename: outputFile,
-    library: libraryName,
+    library: 'fy',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
