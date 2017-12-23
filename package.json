@@ -1,6 +1,7 @@
 {
-  "name": "simplify",
-  "version": "1.0.0",
+  "name": "yuricoden",
+  "version": "0.0.2",
+  "private": true,
   "description": "simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.",
   "main": "index.js",
   "scripts": {
@@ -21,6 +22,7 @@
   "bugs": {
     "url": "https://github.com/Yuricoden/simplify-dev/issues"
   },
+  "readme": "README.md",
   "homepage": "https://github.com/Yuricoden/simplify-dev#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",

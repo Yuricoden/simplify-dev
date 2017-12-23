@@ -1,0 +1,95 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'F:\\dev\\simplifyLibrary',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\frontender\AppData\Roaming\npm-cache\yuricoden\0.0.2\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\frontender\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle yuricoden@0.0.2~prepublish: yuricoden@0.0.2
+11 silly lifecycle yuricoden@0.0.2~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\frontender\\AppData\\Roaming\\npm-cache\\yuricoden\\0.0.2\\package.tgz',
+12 verbose tar pack   'F:\\dev\\simplifyLibrary' ]
+13 verbose tarball C:\Users\frontender\AppData\Roaming\npm-cache\yuricoden\0.0.2\package.tgz
+14 verbose folder F:\dev\simplifyLibrary
+15 verbose addLocalTarball adding from inside cache C:\Users\frontender\AppData\Roaming\npm-cache\yuricoden\0.0.2\package.tgz
+16 verbose correctMkdir C:\Users\frontender\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd yuricoden@0.0.2
+18 verbose afterAdd C:\Users\frontender\AppData\Roaming\npm-cache\yuricoden\0.0.2\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\frontender\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\frontender\AppData\Roaming\npm-cache\yuricoden\0.0.2\package\package.json written
+21 silly publish { name: 'yuricoden',
+21 silly publish   version: '0.0.2',
+21 silly publish   private: true,
+21 silly publish   description: 'simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts:
+21 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+21 silly publish      'start:dev': 'webpack-dev-server --hot --inline',
+21 silly publish      build: 'webpack --env build' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Yuricoden/simplify-dev.git' },
+21 silly publish   keywords: [ '"functional-library"', '"functional-js"' ],
+21 silly publish   author: { name: 'Yuri Zheludkov' },
+21 silly publish   license: 'ISC',
+21 silly publish   bugs: { url: 'https://github.com/Yuricoden/simplify-dev/issues' },
+21 silly publish   homepage: 'https://github.com/Yuricoden/simplify-dev#readme',
+21 silly publish   devDependencies:
+21 silly publish    { 'babel-cli': '^6.26.0',
+21 silly publish      'babel-core': '^6.26.0',
+21 silly publish      'babel-eslint': '^8.0.3',
+21 silly publish      'babel-loader': '^7.1.2',
+21 silly publish      'babel-plugin-add-module-exports': '^0.2.1',
+21 silly publish      'babel-preset-env': '^1.6.1',
+21 silly publish      eslint: '^4.13.1',
+21 silly publish      'eslint-config-airbnb-base': '^12.1.0',
+21 silly publish      'eslint-config-airbnb-standard': '^1.6.5',
+21 silly publish      'eslint-loader': '^1.9.0',
+21 silly publish      'eslint-plugin-import': '^2.8.0',
+21 silly publish      'eslint-plugin-node': '^5.2.1',
+21 silly publish      'eslint-plugin-promise': '^3.6.0',
+21 silly publish      jest: '^21.2.1',
+21 silly publish      'uglifyjs-webpack-plugin': '^1.1.4',
+21 silly publish      webpack: '^3.10.0',
+21 silly publish      'webpack-dev-server': '^2.9.7' },
+21 silly publish   readme: '![alt text](logo.png)\r\n# simplify.js                \r\nsimplify.js is a powerfull functional JavaScript library.\r\n\r\nIt is a speed-fast library for working with objects and arrays.\r\nAlso included are methods for working with functions such as curry,memoize and etc...\r\n\r\n\r\nUsage\r\nConnect the script in your browser:\r\n```\r\n<script src="library/simplify.min.js"></script>\r\n```\r\nor add to project \r\n\r\n```\r\nimport \'fy\' from \'simplify\';\r\n```\r\n\r\n\r\n\r\n\r\n\r\n\r\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '442cfcbdd5285d80d7eb6acadcbc0bba8593fdcb',
+21 silly publish   _id: 'yuricoden@0.0.2',
+21 silly publish   _shasum: '0be8856e4acbdd2916c10079c2299a4414b8f905',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 verbose stack Error: This package has been marked as private
+23 verbose stack Remove the 'private' field from the package.json to publish it.
+23 verbose stack     at publish_ (C:\Program Files\nodejs\node_modules\npm\lib\publish.js:101:15)
+23 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+23 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+23 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:14:28)
+23 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\publish.js:73:5
+23 verbose stack     at RES (C:\Program Files\nodejs\node_modules\npm\node_modules\inflight\inflight.js:23:14)
+23 verbose stack     at f (C:\Program Files\nodejs\node_modules\npm\node_modules\once\once.js:25:25)
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:363:16
+23 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\write-file-atomic\index.js:50:11
+24 verbose cwd F:\dev\simplifyLibrary
+25 error Windows_NT 10.0.14393
+26 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+27 error node v6.11.2
+28 error npm  v3.10.10
+29 error This package has been marked as private
+29 error Remove the 'private' field from the package.json to publish it.
+30 error If you need help, you may report this error at:
+30 error     <https://github.com/npm/npm/issues>
+31 verbose exit [ 1, true ]
