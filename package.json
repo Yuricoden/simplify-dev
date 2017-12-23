@@ -1,6 +1,6 @@
 {
   "name": "yuricoden",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": true,
   "description": "simplify.js is a functional Javascript library.It is a speed-fast library for working with objects and arrays.",
   "main": "index.js",

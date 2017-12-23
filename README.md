@@ -4,7 +4,8 @@ simplify.js is a powerfull functional JavaScript library.
 
 It is a speed-fast library for working with objects and arrays.
 Also included are methods for working with functions such as curry,memoize and etc...
-
+[![NPM Version][npm-url]
+[npm-url]: https://img.shields.io/npm/dw/simplify.svg
 
 Usage:
 
@@ -45,6 +46,16 @@ Try code:
           coin.products = product;
           return coin
         });
+```
+curry, memoize also is in the assembly
+
+```
+      function multiplication(x,y) {
+        return x * y
+      }
+      let fun = fy.curry(add)
+      console.log(fun(2)(6))
+
 ```
 
 
