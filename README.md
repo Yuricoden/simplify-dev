@@ -28,7 +28,7 @@ import 'fy' from 'simplify';
 ```
 
 Try code:
-```
+```javascript
         const product = [
           { product: 'bitcoin' },
           { product: 'liteoin'  },
@@ -57,7 +57,7 @@ Try code:
 ```
 curry, memoize also is in the assembly
 
-```
+```javascript
       function multiplication(x,y) {
         return x * y
       }
