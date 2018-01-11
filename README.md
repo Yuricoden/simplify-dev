@@ -2,7 +2,7 @@
 # simplify.js
 simplify.js is a powerfull functional JavaScript library.
 
-[![NPM Version][npm-url]
+[Link](https://www.npmjs.com/package/@yuricoden/simplifyjs)
 
 
 
